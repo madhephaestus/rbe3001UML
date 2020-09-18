@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T19:36:46.785Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="qmOnnoFnAmoazS8yHyzu" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T21:53:08.527Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tU1zgFWcEuyWH-T9nCvo" version="13.7.3" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="930" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,9 @@
           <mxGeometry y="110" width="590" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2eol-hDx-aK6MEHkuCqB-13" value="PoseInterpolator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="570" width="540" height="288" as="geometry" />
+          <mxGeometry x="10" y="570" width="540" height="288" as="geometry">
+            <mxRectangle x="10" y="570" width="130" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2eol-hDx-aK6MEHkuCqB-14" value="+ xInterp: ValueInterpolator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
           <mxGeometry y="26" width="540" height="26" as="geometry" />
@@ -63,11 +65,11 @@
         <mxCell id="2eol-hDx-aK6MEHkuCqB-21" value="+ yInterp: ValueInterpolator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
           <mxGeometry y="52" width="540" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2eol-hDx-aK6MEHkuCqB-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
-          <mxGeometry y="78" width="540" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="2eol-hDx-aK6MEHkuCqB-22" value="+ zInterp: ValueInterpolator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
-          <mxGeometry y="86" width="540" height="26" as="geometry" />
+          <mxGeometry y="78" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2eol-hDx-aK6MEHkuCqB-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
+          <mxGeometry y="104" width="540" height="8" as="geometry" />
         </mxCell>
         <mxCell id="2eol-hDx-aK6MEHkuCqB-16" value="+ setup(single newX, single newY, single newZ, single duration)&#xa;// Use the FK to get the starting X,Y,Z&#xa;// Use current time from clock to get start time&#xa;// Use current time plus duration to compute end time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2eol-hDx-aK6MEHkuCqB-13" vertex="1">
           <mxGeometry y="112" width="540" height="88" as="geometry" />
